@@ -1,0 +1,2 @@
+# NextJsRepo
+Next js repository
