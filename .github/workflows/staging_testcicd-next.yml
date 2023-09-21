@@ -66,4 +66,4 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CB8DCDCFEB954F3A910D02D12AFF7BB9 }}
           package: .
           #custom-web.config: 'npm start' # Modify this line to specify the correct startup command
-          startup-command: npm start
+          startup-command: 'npm start'
