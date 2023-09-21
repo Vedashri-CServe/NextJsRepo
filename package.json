@@ -2,11 +2,10 @@
   "name": "pms",
   "version": "0.1.0",
   "private": true,
-  "main":"server.js"
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
+    "start": ".\node_modules\.bin\next start",
     "lint": "next lint"
   },
   "dependencies": {
